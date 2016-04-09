@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/tea" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:text="Cough - Taming Tea"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ABC34A"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sip a cup of marshmallow tea. When combined with water, marshmallow yields a gooey mucilage that coats the throat and also thins mucus in the lungs, making it easier to cough up. To make the tea, steep 2 teaspoons of the dried herb in one cup hot water. Have a total of three cups a day."/>
+</LinearLayout>

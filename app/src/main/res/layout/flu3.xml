@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/steam" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ABC34A"
+        android:text="Steam"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Breathe easy with steam. Pour just-boiled water into a large bowl. Drape a towel over the top of your head to trap the steam, and breathe in through your nose for five to 10 minutes. Don’t lower your face too close to the water or you risk scalding your skin or inhaling vapours that are too hot. To make steam inhalations more effective, add five to 10 drops thyme oil or eucalyptus oil to the water. Keep your eyes closed as you breathe in the steam, since both essential oils and steam may irritate your eyes. On the go? Dab a few tissues with eucalyptus oil and hold them under your nose whenever you feel congested."/>
+</LinearLayout>

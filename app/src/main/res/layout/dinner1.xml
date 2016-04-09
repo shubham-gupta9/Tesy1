@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#212121">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:src="@mipmap/nuggets" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Dinner: Homemade Chicken Nuggets, with Broccoli"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#abc34a"/>
+
+
+        <TextView
+
+            android:textColor="#abc34a"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="1 chicken breast"/>
+
+        <TextView
+
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="1 egg"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="2 slices wheat bread"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="Salt and pepper"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="1 cup brocolli"/>
+
+        <TextView
+
+            android:textColor="#abc34a"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="Recipe"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="- Defrost the chicken"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_height="wrap_content"
+            android:text="- Preheat the oven to 375 degrees"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_height="wrap_content"
+            android:text="- Cut the chicken into little pieces of your choice - tenders, nuggets, etc."/>
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Whisk the egg in a bowl"/>
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Toast the bread slices. Then, using a bread knife and your hands, cut and crumple them into breadcrumbs."/>
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Sprinkle them with salt and pepper."/>
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Dip each piece of chicken into the egg, and then roll both sides of it in the breadcrumbs. Place all of the nuggets onto a lightly greased baking tray."/>
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Bake the nuggets for 20 minutes, or until coooked through."/>
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Enjoy with brocolli on the side, per the package's instructions."/>
+
+
+
+
+
+
+             />
+    </LinearLayout>
+
+</ScrollView>

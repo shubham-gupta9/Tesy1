@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#212121">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:src="@mipmap/nuggets" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Dinner: Homemade Chicken Nuggets, with Broccoli"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#abc34a"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="
+1 chicken breast
+1 egg
+2 slices wheat bread
+Salt and pepper
+1 cup brocolli
+
+- Defrost the chicken
+- Preheat the oven to 375 degrees
+- Cut the chicken into little pieces of your choice - tenders, nuggets, etc.
+- Whisk the egg in a bowl
+- Toast the bread slices. Then, using a bread knife and your hands, cut and crumple them into breadcrumbs.
+- Sprinkle them with salt and pepper.
+- Dip each piece of chicken into the egg, and then roll both sides of it in the breadcrumbs. Place all of the nuggets onto a lightly greased baking tray.
+- Bake the nuggets for 20 minutes, or until coooked through.
+- Enjoy with brocolli on the side, per the package's instructions."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</ScrollView>

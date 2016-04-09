@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/lemon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:text="Warm Lemon Water"
+        android:textColor="#ABC34A"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:text=" Lemon water, if your issue is indigestion, helps a stomachache. The high acidity level stimulates the production of hydrochloric acid, which breaks down our food. By upping the amount of HCL being produced, you help move digestion along at healthy pace. You get the added bonus of the hydration too, which keeps the system flushed and running smoothly."/>
+</LinearLayout>

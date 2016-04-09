@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/cough" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="New Coughing Technique"
+        android:textColor="#ABC34A"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:text="If your throat is strained and irritated from nonstop coughing, try this technique to head off a coughing fit. The next time you feel a cough coming on, force yourself to take a series of small, gentle coughs, finally ending with a large one. The tiny coughs help move mucus toward the upper part of your air passage so you can expel more of it with that last, big cough."/>
+</LinearLayout>

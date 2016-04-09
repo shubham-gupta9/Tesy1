@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/socks" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:text="Wet Socks"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ABC34A"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:text="Wear wet socks to bed. Believe it or not, this soggy strategy can help ease a fever and clear congestion by drawing blood to the feet, which dramatically increases blood circulation. (Blood stagnates in areas of greatest congestion.) Best method: Warm your feet in hot water. Then soak a thin pair of cotton socks in cold water, wring them out and slip them on just before going to bed. Put a pair of dry wool socks over the wet ones. The wet socks should be warm and dry in the morning, and you should feel markedly better. "/>
+</LinearLayout>

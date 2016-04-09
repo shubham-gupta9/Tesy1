@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/candy" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:text="Cure with Candy"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ABC34A"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:text="For wet coughs, suck on horehound candy, available in drugstores. A bittersweet herb, horehound acts as an expectorant, triggering the coughing reflex and helping bring up phlegm.
+For a dry cough, any hard candy will do because it increases saliva and causes you to swallow more, suppressing coughs.
+Lemon drops work especially well for wet coughs. Another remedy calls for combining peppermint candy, lemon juice, and honey. Heat the candy in lemon juice until it is dissolved. Then add honey and stir."/>
+</LinearLayout>
+

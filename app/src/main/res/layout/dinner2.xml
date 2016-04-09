@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:background="#212121">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:src="@mipmap/dinner2"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner: Chicken and Rice"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ABC34A"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#abc34a"
+            android:text="Ingredients"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="½ cup rice, dry"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="2 tablespoons olive oil"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="1 chicken breast"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Salt and pepper"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#abc34a"
+            android:text="Recipe"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Defrost the chicken."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Boil water for the rice."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Follow instructions on the rice bag, adjusting for ½ cup of rice."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Set the oven to broil."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Put foil over a pan, and drizzle it with the olive oil."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Evenly spread salt and pepper on both sides of the chicken, and rub the spices into the meat. (Note: You can easily replace the salt and pepper with other spices, per your taste.)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="- Broil for about 6 minutes on one side, and then flip. After 4 minutes, check the bottom of the chicken. If it looks brown, cut it in the middle. It shouldn’t be pink at all. If it’s not, it’s done. If it is, leave it in the oven for another two minutes, and then test again."/>/>
+    </LinearLayout>
+</ScrollView>
